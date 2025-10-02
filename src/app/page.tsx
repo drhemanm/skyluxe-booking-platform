@@ -23,7 +23,7 @@ export default function HomePage() {
           </h2>
           
           <p className="text-lg md:text-xl mb-12 max-w-2xl mx-auto font-light opacity-90">
-            Experience unparalleled elegance and exceptional service in the world's most iconic destination
+            Experience unparalleled elegance and exceptional service in the world&apos;s most iconic destination
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -93,7 +93,7 @@ export default function HomePage() {
                 The SkyLuxe Experience
               </h2>
               <p className="text-lg text-neutral-charcoal/80 mb-6 leading-relaxed">
-                At SkyLuxe, we curate extraordinary stays in Dubai's most prestigious hotels. Each property is handpicked for its exceptional service, stunning design, and unforgettable experiences.
+                At SkyLuxe, we curate extraordinary stays in Dubai&apos;s most prestigious hotels. Each property is handpicked for its exceptional service, stunning design, and unforgettable experiences.
               </p>
               <p className="text-lg text-neutral-charcoal/80 mb-8 leading-relaxed">
                 From iconic landmarks to hidden gems, we connect discerning travelers with accommodations that redefine luxury and create memories that last a lifetime.
@@ -118,7 +118,7 @@ export default function HomePage() {
               Featured Hotels
             </h2>
             <p className="text-lg text-neutral-charcoal/70 max-w-2xl mx-auto">
-              Discover our hand-selected collection of Dubai's finest luxury accommodations
+              Discover our hand-selected collection of Dubai&apos;s finest luxury accommodations
             </p>
           </div>
 
@@ -142,7 +142,7 @@ export default function HomePage() {
                     </div>
                     <button className="px-6 py-2 bg-royal-gold hover:bg-desert-gold text-white font-semibold rounded-lg transition-all duration-300">
                       View Details
-                    </button>
+                    button>
                   </div>
                 </div>
               </div>
@@ -183,7 +183,7 @@ export default function HomePage() {
                   ))}
                 </div>
                 <p className="text-neutral-charcoal/80 mb-6 italic">
-                  "An absolutely unforgettable experience. The attention to detail and level of service exceeded all expectations."
+                  &quot;An absolutely unforgettable experience. The attention to detail and level of service exceeded all expectations.&quot;
                 </p>
                 <div>
                   <p className="font-semibold text-neutral-charcoal">Guest Name {item}</p>

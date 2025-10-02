@@ -123,7 +123,6 @@ export default function HomePage() {
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {/* Hotel Card 1 */}
             {[1, 2, 3, 4, 5, 6].map((item) => (
               <div key={item} className="group bg-white rounded-2xl overflow-hidden luxury-shadow hover:luxury-shadow-hover transition-all duration-300 cursor-pointer">
                 <div className="relative h-64 bg-gradient-golden"></div>
@@ -142,7 +141,7 @@ export default function HomePage() {
                     </div>
                     <button className="px-6 py-2 bg-royal-gold hover:bg-desert-gold text-white font-semibold rounded-lg transition-all duration-300">
                       View Details
-                    button>
+                    </button>
                   </div>
                 </div>
               </div>

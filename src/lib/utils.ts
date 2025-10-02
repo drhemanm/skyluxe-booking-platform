@@ -16,7 +16,7 @@ export function formatCurrency(amount: number, currency: string = "AED"): string
 
 export function formatDate(dateString: string): string {
   const date = new Date(dateString)
-  return new Intl.DateFormat('en-US', {
+  return new Intl.DateTimeFormat('en-US', {
     month: 'long',
     day: 'numeric',
     year: 'numeric'
@@ -25,7 +25,7 @@ export function formatDate(dateString: string): string {
 
 export function formatDateShort(dateString: string): string {
   const date = new Date(dateString)
-  return new Intl.DateFormat('en-US', {
+  return new Intl.DateTimeFormat('en-US', {
     month: 'short',
     day: 'numeric',
     year: 'numeric'
